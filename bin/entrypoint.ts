@@ -2,12 +2,15 @@
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 
+import * as dotenv from 'dotenv';
+
 import { IndexStack } from '../lib';
-import { BASE_STACK_NAME } from '../lib/const';
+
+dotenv.config();
 
 const app = new cdk.App();
 
-new IndexStack(app, BASE_STACK_NAME, {
+new IndexStack(app, process.env.BASE_STACK_NAME!, {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
