@@ -2,6 +2,10 @@
 
 🌐🌐🌐 S3に配置した静的コンテンツをCloudFrontで配信してみる！  
 
+[![ci](https://github.com/osawa-koki/simple-cloudfront-s3/actions/workflows/ci.yml/badge.svg)](https://github.com/osawa-koki/simple-cloudfront-s3/actions/workflows/ci.yml)
+[![cd](https://github.com/osawa-koki/simple-cloudfront-s3/actions/workflows/cd.yml/badge.svg)](https://github.com/osawa-koki/simple-cloudfront-s3/actions/workflows/cd.yml)
+[![Dependabot Updates](https://github.com/osawa-koki/simple-cloudfront-s3/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/osawa-koki/simple-cloudfront-s3/actions/workflows/dependabot/dependabot-updates)
+
 ![成果物](./fruit.gif)  
 
 ## 実行方法
